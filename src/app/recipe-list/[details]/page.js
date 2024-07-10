@@ -23,7 +23,7 @@ async function Recipedetails({params}) {
   return (
     <>
     <h1 className='p-3 font-semibold'>Here is the Details...</h1>
-    <Link href={'/'}><p className='px-3 mb-3 font-semibold'>Go Back</p></Link>
+    <Link href={'/recipe-list'}><p className='px-3 mb-3 font-semibold'>Go Back</p></Link>
     <RecipeDetails recipeDetails={recipeDetails}/>
     </>
   )

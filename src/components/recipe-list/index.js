@@ -28,15 +28,15 @@ function Recipelist({recipeList}) {
                           </div> 
 
                           <div className='p-6'>
-                            <h3 className='text-lg text-gray-600 font-bold'>{recipe.name}</h3>
+                            <h3 className='text-base text-gray-600 font-bold'>{recipe.name}</h3>
                             <div className='mt-4 flex items-center flex-wrap gap-2 '>
-                                <p className='text-lg text-gray-600'>
+                                <p className='text-base text-gray-600'>
                                 Rating : {recipe.rating}
                                 </p>
 
                             </div>
                             <div className='mt-3'>
-                            <p className='text-lg text-gray-600 font-bold'>
+                            <p className='text-base text-gray-600 font-bold'>
                                 {recipe.cuisine}
                             </p>
                           </div>
